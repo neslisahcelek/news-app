@@ -12,6 +12,7 @@ interface NewsAPIService{
 
     @GET("everything")
         suspend fun getNews(
+            @Query("q") q: String = "Technology",
             @Query("from") from: String = Date().toString(),
             @Query("sortBy") sortBy: String = "popularity",
             @Query("apiKey") apiKey: String = API_KEY
