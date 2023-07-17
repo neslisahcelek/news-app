@@ -1,8 +1,6 @@
 package com.example.newsapp.di.modules
 
-import com.example.newsapp.network.BASE_URL
 import com.example.newsapp.network.NewsAPIService
-import com.example.newsapp.network.moshi
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module
